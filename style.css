@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 800px;
+  width: 100%;
+  background: url('img/1.jpg') no-repeat center;
+  background-size: cover;
+}
+.name{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  max-width: 800px;
+  height: auto;
+  margin: 0 auto;
+}
+.container h1 {
+  font-family: 'Righteous', cursive;
+  font-size: 3em;
+  color: white;
+  text-align: center;
+  text-transform:uppercase;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.container p {
+  font-family: 'Spinnaker', sans-serif;
+  font-size: 1.5em;
+  color: white;
+  /* text-transform:uppercase; */
+  display: block;
+  margin-left: 30px;
+  text-align: center;
+  line-height: 1.5;
+  margin-top: 0;
+}
+.game-js {
+  height: 350px;
+  width: 350px;
+  background-color: rgb(113, 46, 255, 0.0);
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.blocks{
+  display: flex;
+  justify-content: space-between;
+  -webkit-padding-start: 0px;
+  -webkit-margin-after:0px;
+  -webkit-margin-before:0px;
+}
+.blocks li{
+  display: block;
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+  list-style: none;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+.change{
+  background-color: white;
+}
+
+/* change color */
+
+.purple{
+  background-color: rgb(155, 26, 221,0.5)
+}
+.lime{
+  background-color: rgb(119, 235, 59,0.5)
+}
+.pink{
+  background-color:rgb(255, 82, 180, 0.5)
+}
