@@ -31,8 +31,7 @@ $(document).ready(function() {
     $(document).mouseup(function (e) {
         var container = $(".popup");
         if (container.has(e.target).length === 0){
-            container.hide();
-            $(".show").removeClass();
+            $(container).removeClass("show");
         }
     });
 });
