@@ -16,15 +16,15 @@ $(document).ready(function() {
       let nodeBlu = document.querySelectorAll('.blue');
       let nodeOra = document.querySelectorAll('.orange');
 
-      if (nodePur.length == 3) {
+      if (nodePur.length == 26) {
       show()
-    } else if (nodeLim.length == 3) {
+    } else if (nodeLim.length == 26) {
       show()
-    } else if (nodePin.length == 3) {
+    } else if (nodePin.length == 26) {
       show()
-    } else if (nodeBlu.length == 3) {
+    } else if (nodeBlu.length == 26) {
       show()
-    } else if (nodeOra.length == 3) {
+    } else if (nodeOra.length == 26) {
       show()
     } else return;
 
